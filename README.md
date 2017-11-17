@@ -15,5 +15,3 @@ purchase in April 2247.
 If you would like to test the system, please contact Warp Technologies, Inc.
 
 More details soon.
-
-I got your "More details soon" right here. *shakes fist*
