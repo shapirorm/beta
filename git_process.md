@@ -1,33 +1,47 @@
 # Person 1: Create and setup new repository
 
-1. Create a repository: https://help.github.com/articles/create-a-repo/
-2. Change to base directory on local computer
-3. Clone repository to base directory using https:
-  - git clone https://github.com/cseanburns/beta.git
-  - also see here: 
+1. Create a repository on GitHub.com
+  - For help, see the guide at: 
+    https://help.github.com/articles/create-a-repo/
+  - Let's name the repo *beta* (just an example name)
+2. Make sure you have Git installed on your computer.
+3. Open Git Bash (Windows) or the Terminal (Mac/Linux) on your computer. 
+4. You will be in a default directory. We will refer to this as the base 
+   directory. If you open *Git Bash* on Windows or the terminal on Mac, the 
+   base directory should be your user directory.
+5. Clone the *beta* repository to your base directory using https. Here is 
+   the command (PERSONONE is your GitHub username):
+  - git clone https://github.com/PERSONONE/beta.git
+  - some tips: 
     - https://www.atlassian.com/git/tutorials/setting-up-a-repository
-4. Modify source files, code, or add new files
+6. Now you can modify source files, add code or new files
 5. Stage/add source files
   - git add .
 5. Commit changes:
-  - git commit -m "notes"
-6. Then push:
+  - git commit -m "descriptive note"
+6. Then push to your repository:
   - git push origin master
 
 # Person 2: Fork, add/modify, commit
 
 1. Fork repository on GitHub
-2. Clone repository on local computer:
-  - git clone https://github.com/cseanburns/beta.git
-3. Make code changes or add new files
-4. Stage and commit:
-  - git add . && git commit -m "comment"
-5. Push changes to repository on GitHub (will need to enter credentials):
+2. Visit the forked repository on **your** GitHub.com account and note the 
+   URL
+3. Clone that forked repository (where PERSONTWO is your GitHub username):
+  - git clone https://github.com/PERSONTWO/beta.git
+4. Make code changes or add new files using your text editor
+5. Stage files for your repo:
+  - git add .
+6. Commit files to your repo:
+  - git commit -m "comment"
+7. Push changes to your repository on GitHub (will need to enter 
+   credentials):
   - git push origin master
-6. Visit your repo on GitHub
-8. Click: New Pull Request
-9. Click: Create Pull Request
-10. Submit pull request. Person 1 will need to review and accept.
+8. Visit your repo on GitHub. For example:
+  - https://github.com/PERSONTWO/beta
+9. Click: New Pull Request
+10. Click: Create Pull Request
+11. Submit pull request. Person 1 will need to review and accept.
 
 # Person 1: Accept pull request
 
